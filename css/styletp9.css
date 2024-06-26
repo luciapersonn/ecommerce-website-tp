@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.904);
+}
+
+ul{
+    display: flex;
+    justify-content: space-around;
+  list-style: none;
+  font-size: 22px;
+ font-family: "Lato", sans-serif;
+   
+}
+.navbar-brand{
+    font-size: x-large;
+    background-color: black;
+    color: white;
+    border-radius: 15px;
+    border: 1px solid black;
+    padding: 8px;
+  font-family: "Inconsolata", monospace;
+}
+.navbar{
+    top: 5px;
+}
+.contenedorbarra{
+    background-color: rgb(238, 238, 238);
+position: fixed;
+width: 100%;
+
+    z-index: 1;
+}
+.boton2{
+    background-color: rgba(230, 228, 211, 0.884);
+    border: 1px solid rgb(226, 226, 221);
+    font-family: Arial, Helvetica, sans-serif  ;
+    padding: 8px ;
+    border-radius: 5px;
+    margin: 8px;
+
+}
+.boton2:hover{
+    background-color: rgb(199, 195, 172);
+color: black;
+border: 1px solid rgb(182, 181, 173);
+}
+main{
+    position: relative;
+    top: 80px;
+}
+h1{
+color: rgb(0, 0, 0);
+font-size: 35px;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  justify-content: center;
+position: relative;
+top: 45px;
+}
+
+
+.tarjeta{
+    border: 5px solid rgb(49, 48, 48) ;
+    width: 350px;
+    padding: 15px ;
+    margin: 10px;
+     font-family: "PT Serif", serif;
+}
+.imagenguitarra{
+    display: flex;
+    justify-content: center;
+}
+.precio{
+    font-family: Arial, Helvetica, sans-serif  ;
+    font-size: larger;
+}
+.main2{
+display: flex;
+flex-wrap: wrap;
+}
+
+.boton{
+    background-color: rgba(182, 182, 176, 0.884);
+    border: 1px solid beige;
+    font-family: Arial, Helvetica, sans-serif  ;
+    padding: 10px ;
+    border-radius: 5px;
+    margin: 10px;
+
+}
+.boton:hover{
+background-color: rgb(165, 165, 165);
+color: black;
+border: 1px solid rgb(156, 156, 156);
+}
+.link2{
+    color: black;
+    text-decoration: none;
+}
+.link{
+    color: black;
+    text-decoration: none;
+}
+.imagen2{
+    background-color: white;
+}
+.imagen4{
+    background-color: white;
+}
+.imagen6{
+    background-color: white;
+}
+
+.imagen8{
+    background-color: white;
+}
+.imagen2:hover{
+    width: 350px;
+height: 350px;
+transition: all 2s ease;
+}
+.imagen3:hover{
+    width: 330px;
+    height: 400px;
+    transition: all 2s ease;
+}
+.imagen4:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 2s ease; 
+}
+.imagen5:hover{
+    width: 330px;
+    height: 400px;
+    transition: all 2s ease;
+}
+.imagen6:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 2s ease;
+}
+.imagen7:hover{
+    width: 330px;
+    height: 400px;
+    transition: all 2s ease;
+}
+.imagen8:hover{
+    width: 350px;
+    height: 350px;
+    transition: all 2s ease; 
+}
+.imagen9:hover{
+    width: 330px;
+    height: 400px;
+    transition: all 2s ease;
+}
+.imagen10:hover{
+    width: 330px;
+    height: 400px;
+    transition: all 2s ease;
+}
+
+.foter{
+    margin-top: 170px;
+    background-color:  rgb(238, 238, 238);
+    font-family: "Lato", sans-serif;
+    position: static;
+}
+.info{
+    color: black;
+    text-decoration: none;
+}
+
+
+
+@media(max-width:1200px){
+body{
+    background-color: rgb(216, 221, 201);
+ 
+}
+.contenedor{
+    display: block;
+    max-width: 300px;
+}
+h1{
+margin-top: 20px;
+text-align: center;
+font-size: 50px;
+display: flex;
+justify-content: center;
+}
+main{
+    display: flex;
+    justify-content: left;
+}
+
+}
+@media screen and (min-width: 640px) and (max-width: 1000px) {
+    body {
+        background: rgb(206, 209, 194);
+    }
+    .contenedor{
+        display: block;
+        max-width: 300px;
+    }
+    main{
+        display: flex;
+        justify-content: left;
+    }
+  h1{
+    color: black;
+                font-size: 20px;
+                position: absolute;
+             margin: 50px;
+  }
+  .main2{
+    display: flex;
+    justify-content: center;
+  }
+
+
+
+}
+
+
+     @media screen and (max-width: 640px) {
+        body{
+            background: rgb(231, 233, 216);
+       max-width: 500px;
+       }
+        .contenedor{
+           display: block;
+           max-width: 90px;
+        }
+        .cajados{
+         display: flex;
+         flex-direction: column;
+         justify-content: flex-end;
+        
+        }
+        main{
+           display: flex;
+           justify-content: left;
+              }
+              h1{
+                color: black;
+                font-size: 20px;
+                position: absolute;
+             margin: 50px;
+             } 
+             .imagen4{
+               width: 250px;
+               height: 250px;
+             }
+             .seccion{
+             display: flex;
+             justify-content: center;
+             align-items: center;
+            }
+            .tarjeta{
+               border: 5px solid rgb(49, 48, 48) ;
+               width: 250px;
+               padding: 15px ;
+               margin: 10px;
+               
+            }
+
+.imagen2{
+    height: 220px;
+    width: 220px;
+}
+.imagen4{
+    height: 220px;
+    width: 220px;
+}
+.imagen6{
+    height: 220px;
+    width: 220px;
+}
+.imagen8{
+    height: 220px;
+    width: 220px;
+}
+.cajados{
+    margin-top: 25px;
+margin: 0%;
+
+}
+.main2{
+    display: flex;
+    justify-content: center;
+}
+
+     }
+    
+     
+    
+
+
+
+      
